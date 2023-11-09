@@ -1,0 +1,32 @@
+body{
+    background-image: url(./image/mykyta-kravcenko-0b-54OHyy8g-unsplash.jpg);
+    background-size: cover;
+}
+header{
+    background-color: black;
+#logo{
+    margin-left: 5%
+}
+.navbar{
+    float: right;
+    margin-top: 16px;
+    margin-right: 40px;
+}
+.navbar a{ 
+    border: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(42, 140, 165);
+    padding: 6px;
+}
+.navbar a:hover{
+    color: aquamarine;
+}
+.list{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.list ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aquamarine;
+}
