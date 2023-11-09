@@ -1,15 +1,19 @@
 body{
-    background-image: url(./image/mykyta-kravcenko-0b-54OHyy8g-unsplash.jpg);
+    height: 100%;
+    margin:0%;
+    background-image: url(./images/mykyta-kravcenko-0b-54OHyy8g-unsplash.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 header{
     background-color: black;
+}
 #logo{
     margin-left: 5%
 }
 .navbar{
     float: right;
-    margin-top: 16px;
+    margin-top: 19px;
     margin-right: 40px;
 }
 .navbar a{ 
