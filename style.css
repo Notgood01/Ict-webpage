@@ -1,36 +1,69 @@
 body{
-    height: 100%;
-    margin:0%;
-    background-image: url(./images/mykyta-kravcenko-0b-54OHyy8g-unsplash.jpg);
+    background-image: url(./image/mykyta-kravcenko-0b-54OHyy8g-unsplash.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 header{
     background-color: black;
+}
+*{
+    margin: 0%;
+    padding: 0%;
 }
 #logo{
     margin-left: 5%
 }
 .navbar{
     float: right;
-    margin-top: 19px;
+    margin-top: 18px;
     margin-right: 40px;
 }
 .navbar a{ 
     border: 1px solid white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: rgb(42, 140, 165);
+    color: white;
     padding: 6px;
+    margin: 3px;
 }
 .navbar a:hover{
-    color: aquamarine;
+    background-color: teal;
+    color:black;
 }
 .list{
-    margin-left: 10%;
-    margin-top: 20%;
+    margin: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    /* border: 2px solid red; */
+    float: left;
+}
+.list h3{
+    margin-bottom: 10px;
 }
 .list ul{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: aquamarine;
+    list-style-type: square;
+    padding: 2px;
+}
+.form{
+    margin-top: 70px;
+    float: right;
+    /* border: 2px solid red; */
+    background-color: beige;
+    height: 16em;
+    margin-right: 20px;
+    width: 12em;
+    padding: 30px;
+    
+}
+#button{
+    color:white;
+    background-color:dodgerblue;
+    width: 86%;
+    height: 8%;
+    border: none;
+}
+.form h2{
+    text-align: center;
+}
+.form input:hover{
+    background-color: gray;
 }
