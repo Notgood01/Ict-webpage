@@ -10,7 +10,8 @@ header{
     padding: 0%;
 }
 #logo{
-    margin-left: 5%
+    margin-left: 5%;
+    margin-top: 4px;
 }
 .navbar{
     float: right;
@@ -46,18 +47,18 @@ header{
 .form{
     margin-top: 70px;
     float: right;
-    /* border: 2px solid red; */
+    border: 1px solid red;
     background-color: beige;
     height: 16em;
     margin-right: 20px;
-    width: 12em;
+    width: 11em;
     padding: 30px;
     
 }
 #button{
     color:white;
     background-color:dodgerblue;
-    width: 86%;
+    width: 98%;
     height: 8%;
     border: none;
 }
@@ -65,5 +66,36 @@ header{
     text-align: center;
 }
 .form input:hover{
-    background-color: gray;
+    background-color: rgb(223, 218, 218);
+}
+.container{
+    margin-top: 450px;
+    margin-left: 60px;
+}
+.pbox{
+    float: left;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(179, 179, 179);
+    margin-left: 5px;
+    width: 23%;
+    padding: 5px;
+    height: 15em;
+}
+.pbox h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pbox p{
+    text-align: justify;
+}
+.pbox a{
+    color: red;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 60%;
+    height: 1.5em;
 }
